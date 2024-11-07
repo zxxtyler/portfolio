@@ -1,0 +1,131 @@
+body{
+    background-color: #141414;
+}
+
+.fundoescuro{
+    background-color: #0b0b0b;
+}
+
+.soukoku{
+    width: 29rem;
+    
+}
+
+.titulo{
+    color: white;
+    font-family: 'CS Rocky', sans-serif;
+    font-size: 8em;
+    text-shadow: 0.1em 0.1em #77383d;
+    padding-top: 10vh;
+}
+
+.titulosecundario{
+    font-family: 'CS Rocky', sans-serif;
+    color: white;
+    font-size: 3em;
+    padding-left: 40vw;
+    display: flex;
+    justify-content: right;
+}
+
+.separacao{
+    display: flex;
+    flex-direction: row;
+}
+
+.portfolios{
+    width: fit-content;
+    position: absolute;
+    right: 6vw;
+    top: 1.5rem;
+    display: flex;
+    gap: 1.5em;
+}
+
+.port{
+    border: none;
+    font-size: 1rem; 
+    height: 2.5rem;
+    border-radius: 1rem;
+    font-family: 'CS Rocky', sans-serif;
+    box-shadow: 0.3em 0.4em #77383d;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.anoatual{
+    position:absolute;
+	left:95%;
+    bottom: 3%;
+    width: 8vh;
+}
+
+.caixa1{
+    padding-top: 2em;
+    width: 45rem;
+}
+
+.linha1{
+    padding-top: 4em;
+}
+
+.linha2{
+    padding-top: 1em;
+}
+
+.separacao2{
+    display: flex;
+    flex-direction: row;
+}
+
+.titulosobre{
+    color: white;
+    font-family: 'CS Rocky', sans-serif;
+    font-size: 5.9em;
+    text-shadow: 0.1em 0.1em #77383d;
+    margin: 0;
+    
+}
+
+.quadrado{
+    padding-top: 1.5em;
+    width: 30em;
+}
+
+.caixa2{
+    padding-top: 4.5em;
+    
+}
+
+.caixa3{
+    width: 37vh;
+    padding-left: 0.5vh;
+    padding-top: 1.5em;
+}
+
+.textosobre{
+    color: white;
+    font-weight: 100;
+    font-size: 1.5em;
+    border: 0.16em solid rgb(255, 255, 255);
+    text-align: center;
+    height: 20em;
+    width: 12.1em;
+}
+
+.lado2{
+   padding-left: 30vw;
+}
+
+.imagemsobre{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    padding-top: 9rem;
+    padding-left: 7vw;
+    width: 40rem;
+}
