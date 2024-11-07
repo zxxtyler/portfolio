@@ -79,6 +79,7 @@ a{
 .separacao2{
     display: flex;
     flex-direction: row;
+    padding-bottom: 1em;
 }
 
 .titulosobre{
@@ -126,4 +127,65 @@ a{
     padding-top: 9rem;
     padding-left: 7vw;
     width: 40rem;
+}
+
+.separacao3{
+    display: flex;
+    flex-direction: row;
+    background-color: #0b0b0b;
+}
+
+.titulocurriculo{
+    padding-top: 0.8em;
+    padding-left: 1em;
+    color: white;
+    font-family: 'CS Rocky', sans-serif;
+    font-size: 5em;
+    text-shadow: 0.1em 0.1em #77383d;
+}
+
+.curriculo{
+    padding-left: 12em;
+    padding-top: 1em;
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: drop-shadow(5px 5px 5px #252525);
+
+}
+
+.curriculo:hover{
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+
+.titulocertificado{
+    padding-top: 5em;
+    color: white;
+    font-family: 'CS Rocky', sans-serif;
+    font-size: 3em;
+    text-shadow: 0.1em 0.1em #77383d;
+}
+
+.certificados{
+    display: flex;
+    gap: 3em;
+}
+
+.certf{
+    transition: all 0.3s ease-in-out;
+}
+
+.certf:hover{
+    transform: scale(2.0);
+}
+
+.reto{
+    display: flex;
+    flex-direction: row;
+}
+
+.botoescurriculo{
+    display: flex;
+    gap: 2em;
+    padding-top: 18em;
+    padding-left: 3em;
 }
