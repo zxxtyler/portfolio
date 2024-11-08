@@ -133,10 +133,10 @@ a{
     display: flex;
     flex-direction: row;
     background-color: #0b0b0b;
+    padding-bottom: 4em;
 }
 
 .titulocurriculo{
-    padding-top: 0.8em;
     padding-left: 1em;
     color: white;
     font-family: 'CS Rocky', sans-serif;
@@ -188,4 +188,39 @@ a{
     gap: 2em;
     padding-top: 18em;
     padding-left: 3em;
+}
+
+.titulomaterias{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: white;
+    font-family: 'CS Rocky', sans-serif;
+    font-size: 4em;
+    text-shadow: 0.1em 0.1em #77383d;
+    display: flex;
+    justify-content: center;
+}
+
+.materias{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    
+}
+
+.icone{
+    width: 20em;
+}
+
+.nomematerias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 13em;
+    padding-bottom: 6em;
+}
+
+.nome{
+    color: white;
+    font-family: 'CS Rocky', sans-serif;
 }
