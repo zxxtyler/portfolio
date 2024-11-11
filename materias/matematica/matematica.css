@@ -81,20 +81,28 @@ h3{
    
 }
 
-.mapa{
+.miniatura{
     width: 25em;
     padding-left: 3em;
     padding-top: 1.5em;
 }
 
 .documento{
-    padding-left: 3em;
+    padding-left: 1em;
     width: 14em;
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: drop-shadow(5px 5px 5px #252525);
 }
 
-p{
+.documento:hover{
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+
+.textodiv{
     color: white;
     padding-left: 48em;
+    margin: 0;
     
 }
 
@@ -102,4 +110,13 @@ p{
     width: 25em;
     padding-left: 3em;
     padding-top: 13em;
+}
+
+.espaco{
+    padding-top: 8em;
+}
+
+.decoracao3{
+    width: 25em;
+    padding-left: 3em;
 }
