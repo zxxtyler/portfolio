@@ -1,0 +1,121 @@
+body{
+    background-color: #0b0b0b;
+}
+
+h1{
+    color: white;
+    font-family: 'CS Rocky', sans-serif;
+    font-size: 5em;
+    text-shadow: 0.1em 0.1em #77383d;
+    display: flex;
+    justify-content: center;
+}
+
+.seta{
+    width: 3em;
+    padding-top: 5em;
+}
+
+.reto{ 
+    display: flex;
+    flex-direction: row;
+}
+
+.titulotri{
+    padding-top: 0.8em;
+    padding-left: 0.5em;
+    color: white;
+    font-family: 'CS Rocky', sans-serif;
+    font-size: 3em;
+    text-shadow: 0.1em 0.1em #77383d;
+}
+
+.linha{
+    width: 30em;
+    padding-left: 3em;
+}
+
+.ponto{
+    width: 1.5em;
+    padding-left: 3em;
+    padding-top: 1.5em;
+}
+
+.descricao{
+    color: white;
+    width: 29em;
+    padding-left: 0.5em;
+}
+
+.habilidades {
+    width: 20em;
+    height: 2em;
+    background-color: #0b0b0b;
+    border: 0.2em solid #590202; 
+    align-items: center;
+    
+}
+
+
+h3{
+    color: white;
+    font-size: 1em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 0; 
+    padding-top: 0.5em;
+}
+
+.caixa{
+    padding-left: 10em;
+}
+
+.atividade{
+    background-color: #303030;
+    width: 45em;
+    height: 17em;
+    border-radius: 2em;
+    margin-left: 4.5em;
+    position: relative;
+}
+
+.miniatura{
+    width: 25em;
+    padding-left: 3em;
+    padding-top: 1.5em;
+}
+
+.documento{
+    padding-left: 1em;
+    width: 14em;
+    transition: all 0.3s ease-in-out;
+    -webkit-filter: drop-shadow(5px 5px 5px #252525);
+}
+
+.documento:hover{
+    opacity: 0.8;
+    transform: scale(1.2);
+}
+
+.textodiv{
+    color: white;
+    padding-left: 48em;
+    margin: 0;
+    
+}
+
+.decoracao{
+    width: 25em;
+    padding-left: 3em;
+    padding-top: 13em;
+}
+
+.espaco{
+    padding-top: 8em;
+}
+
+.decoracao3{
+    width: 25em;
+    padding-left: 3em;
+}
