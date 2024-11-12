@@ -119,3 +119,24 @@ h3{
     width: 25em;
     padding-left: 3em;
 }
+
+.conteudo{
+    display: none;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    padding-top: 5em;  
+}
+
+button{
+    border: none;
+    width: 15em;
+    height: 3em;
+    font-size: 1rem; 
+    border-radius: 1rem;
+    font-family: 'CS Rocky', sans-serif;
+    box-shadow: 0.3em 0.4em #77383d;
+}
